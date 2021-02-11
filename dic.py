@@ -1,26 +1,29 @@
-# dict is mutable means it is changeable.
-
-# dict is made with the help of keys and values pair.
+# {}, mutable, keys:values, datatype.
 
 myDict = {
-    # keys : values
-    "Satyam" : 7857555,
-    "Krishna" : 7474441,
-    "Anuj" : 445441,
+    # keys:values
+    "Anuj" : 4574448,
+    "Shubh": 747444,
+    "Satyam":4414444,
 }
 
 print(myDict)
-# [1,2,3,4,5]
-print(myDict["Krishna"])
 
 print(myDict.keys())
 print(myDict.values())
 
-myDict.pop("Krishna")
+myDict["Shubh"] = 4777488
 print(myDict)
 
-myDict["Anuj"] = 14141112
+# l = [1,2,3,4,5]
+# l.append(6)
+
+myDict["Ram"] = 445474474
 print(myDict)
 
-myDict["Ram"] = 45466658
+myDict.popitem()
 print(myDict)
+
+myDict.pop("Anuj")
+print(myDict)
+
